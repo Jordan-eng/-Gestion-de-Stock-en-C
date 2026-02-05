@@ -1,0 +1,74 @@
+[fruit]
+pomme;1.50;100
+orange;1.80;90
+kiwi;2.00;60
+mangue;2.50;50
+fraise;15.00;120
+fruit du dragon;23.00;45
+
+[legumes]
+carotte;0.90;120
+tomate;1.30;110
+courgette;1.50;100
+poivron;1.80;90
+aubergine;1.60;85
+salade;1.20;95
+
+[boissons]
+eau;0.50;200
+jus d'orange;2.00;150
+soda;1.80;180
+lait;1.00;170
+cafe;3.50;140
+the;2.00;130
+
+[produits laitiers]
+yaourt;1.00;200
+fromage;2.50;180
+beurre;2.00;160
+creme fraiche;2.20;140
+lait;1.00;170
+
+[poissons]
+saumon;10.00;50
+thon;9.00;60
+cabillaud;8.50;55
+sardine;4.00;100
+crevettes;12.00;45
+
+[produits surgeles]
+frites;2.50;180
+pizza;4.00;160
+glace;3.50;140
+poisson pane;5.00;120
+legumes surgeles;3.00;150
+
+[produits d'hygiene]
+savon;1.50;200
+shampoing;3.00;180
+dentifrice;2.50;170
+deodorant;4.00;160
+papier toilette;5.00;300
+
+[produits menagers]
+liquide vaisselle;2.00;190
+lessive;6.00;150
+eponge;1.20;200
+sac-poubelle;3.50;180
+nettoyant;4.50;170
+
+[voiture]
+nissan;12.00;45
+
+[jeu video]
+ps4;275.00;15
+nintendo ;150.00;152
+
+[moto]
+fc134;5676.00;34
+gh453;2345.00;123
+
+[les electroniques]
+carte arduino;123.00;643
+rasberry;250.00;23
+
