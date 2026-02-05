@@ -4,6 +4,8 @@
 
 Ce projet est une application écrite en langage C conçue pour gérer un stock de produits organisés en catégories. L'application propose une interface utilisateur textuelle dotée de menus interactifs permettant d'effectuer diverses opérations de gestion sur les catégories et les produits.
 
+Vous trouverez dans ce repertoire le fichier C(gestion_stock) ainsi qu'une liste de produits pour le tester au format csv (produits.csv).
+
 ## ✨ Fonctionnalités Principales
 
 L'application est divisée en plusieurs modules fonctionnels :
