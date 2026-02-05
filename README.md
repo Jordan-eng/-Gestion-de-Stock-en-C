@@ -70,6 +70,7 @@ Le projet utilise des listes chaînées pour gérer dynamiquement les données.
 ### Interface Utilisateur
 
 L'interface utilise un code couleur pour améliorer la lisibilité :
+
 <img width="528" height="808" alt="image" src="https://github.com/user-attachments/assets/469f0343-b405-4ca1-bbbf-a0d55e8d4e91" />
 
 
