@@ -10,96 +10,59 @@ L'application est divisée en plusieurs modules fonctionnels :
 
 ### 🗂️ Gestion des Catégories
 
-* 
 **Création :** Saisie et ajout d'une nouvelle catégorie à la liste.
-
-
-* 
+ 
 **Affichage :** Visualisation de toutes les catégories existantes avec leurs produits associés.
-
-
-* 
+ 
 **Suppression :** Retrait d'une catégorie et libération de la mémoire associée.
-
-
-* 
+ 
 **Modification :** Possibilité de renommer une catégorie existante.
 
 
-
 ### 🛒 Gestion des Produits
-
-* 
+ 
 **Ajout :** Insertion d'un produit dans une catégorie spécifique.
-
-
-* 
+ 
 **Mise à jour :** Modification du prix et de la quantité d'un produit existant.
-
-
-* 
+ 
 **Suppression :** Retrait d'un produit d'une catégorie.
-
-
-* 
+ 
 **Affichage :** Liste des produits pour une catégorie donnée.
 
 
 * **Tri :**
 * Tri des produits d'une catégorie par nom, prix (croissant/décroissant) ou quantité.
 
-
 * Tri global de tous les produits de toutes les catégories selon un critère défini.
-
-
-
 
 
 ### 📊 Analyse et Statistiques
 
-* 
 **Alertes :** Identification et affichage des produits dont le stock est inférieur à un seuil défini.
-
-
-* 
+ 
 **Recherche :** Localisation d'un produit par son nom à travers toutes les catégories.
-
-
-* 
+ 
 **Statistiques Globales :** Affichage du nombre total de produits et de la valeur totale du stock.
-
-
-* 
+ 
 **Calcul de stock :** Calcul du nombre total de produits au sein d'une catégorie.
 
 
-
 ### 💾 Persistance des Données (Fichiers)
-
-* 
+ 
 **Sauvegarde :** Exportation des catégories et produits vers un fichier CSV.
-
-
-* 
+ 
 **Chargement :** Importation des données depuis un fichier CSV.
-
-
-* 
+ 
 **Visualisation :** Affichage du contenu brut du fichier CSV.
-
 
 
 ## 🏗️ Structures de Données
 
 Le projet utilise des listes chaînées pour gérer dynamiquement les données.
-
-* 
+ 
 **Catégorie (`Categorie`) :** Contient un titre, une liste chaînée de produits et un pointeur vers la catégorie suivante.
-
-
-* 
+ 
 **Produit (`Produit`) :** Contient un nom, un prix, une quantité et un pointeur vers le produit suivant.
-
 
 
 ## 🛡️ Contrôles, Robustesse et Interface
@@ -107,6 +70,8 @@ Le projet utilise des listes chaînées pour gérer dynamiquement les données.
 ### Interface Utilisateur
 
 L'interface utilise un code couleur pour améliorer la lisibilité :
+<img width="528" height="808" alt="image" src="https://github.com/user-attachments/assets/469f0343-b405-4ca1-bbbf-a0d55e8d4e91" />
+
 
 * 🔵 **Bleu :** Titres et bordures.
 
@@ -140,10 +105,10 @@ L'interface utilise un code couleur pour améliorer la lisibilité :
 
 Le programme assure la libération correcte des listes chaînées (catégories et produits) à la fin de l'exécution pour prévenir les fuites de mémoire.
 
+
 ## 🚀 Pistes d'Amélioration
 
 * Ajout de tests unitaires pour valider les fonctions principales.
-
 
 * Centralisation des messages d'erreur et de confirmation via une fonction dédiée.
 
